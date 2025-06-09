@@ -1,0 +1,32 @@
+{
+  "tasks": [
+    {
+      "label": "Build run.cpp",
+      "type": "shell",
+      "command": "make",
+      "args": ["run"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "Build gen.cpp",
+      "type": "shell",
+      "command": "make",
+      "args": ["gen"],
+      "group": "build",
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "Clean",
+      "type": "shell",
+      "command": "make",
+      "args": ["clean"],
+      "group": "build",
+      "problemMatcher": []
+    }
+  ],
+  "version": "2.0.0"
+}

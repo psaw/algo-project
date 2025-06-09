@@ -1,0 +1,43 @@
+{
+  "files.associations": {
+    "algorithm": "cpp",
+    "type_traits": "cpp",
+    "iostream": "cpp",
+    "__bit_reference": "cpp",
+    "__hash_table": "cpp",
+    "__split_buffer": "cpp",
+    "__tree": "cpp",
+    "array": "cpp",
+    "deque": "cpp",
+    "hash_map": "cpp",
+    "hash_set": "cpp",
+    "forward_list": "cpp",
+    "initializer_list": "cpp",
+    "list": "cpp",
+    "map": "cpp",
+    "regex": "cpp",
+    "set": "cpp",
+    "span": "cpp",
+    "string": "cpp",
+    "string_view": "cpp",
+    "unordered_map": "cpp",
+    "unordered_set": "cpp",
+    "valarray": "cpp",
+    "vector": "cpp",
+    "filesystem": "cpp",
+    "iterator": "cpp",
+    "cstdio": "cpp"
+  },
+  "C_Cpp.default.cppStandard": "c++14",
+  "C_Cpp.default.intelliSenseMode": "macos-clang-arm64",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.rulers": [100],
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/**",
+    "${workspaceFolder}/libcxx/include"
+  ]
+}
